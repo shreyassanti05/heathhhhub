@@ -1,0 +1,41 @@
+{
+  "name": "health-hub-ai",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "^1.29.1",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
+    "@sendgrid/mail": "^8.1.6",
+    "@types/leaflet": "^1.9.21",
+    "@types/three": "^0.183.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "framer-motion": "^12.38.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.7.0",
+    "node-fetch": "^3.3.2",
+    "react": "^19.2.0",
+    "react-body-highlighter": "^2.0.5",
+    "react-dom": "^19.2.0",
+    "react-leaflet": "^5.0.0",
+    "recharts": "^3.4.1",
+    "three": "^0.183.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.0.0",
+    "baseline-browser-mapping": "^2.10.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
